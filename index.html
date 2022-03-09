@@ -48,6 +48,7 @@
     <div class="container">
       <div class="input-group mb-3 mt-5 d-flex justify-content-center">
         <input
+          id="inputValue"
           type="text"
           class="col col-4"
           placeholder="Write your Email"
@@ -55,6 +56,7 @@
           aria-describedby="button-addon2"
         />
         <button
+          onclick="myEmail()"
           class="btn btn-outline-secondary col-2 ms-2"
           type="button"
           id="button-addon2"
@@ -62,6 +64,7 @@
           Submit Email
         </button>
       </div>
+      <p id="output" class="text-center"></p>
     </div>
 
     <script
